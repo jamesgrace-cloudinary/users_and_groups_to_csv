@@ -16,4 +16,4 @@ Tool written in JavaScript that generates a CSV file containing a listing of all
   - `provisioning_api_secret: 'abcdefgh_ijklmnop'`
     - **API Secret** - replace the `abcdefghijklmnop` value from Account Settings > Account > Provisioning API Access.
 
-:warning: *Note that **this script requires that the Provisiong API be enabled!** Please be certain that the requisite Provisioning API flags have been enabled and that Provisioning API Keys have been generated prior to prior to executing against a production Cloudinary sub-account.*
+:warning: *Note that **this script requires that the Provisiong API!** Please be certain that the requisite Provisioning API flags have been enabled and that Provisioning API Keys have been generated prior to prior to executing against a production Cloudinary sub-account.*
