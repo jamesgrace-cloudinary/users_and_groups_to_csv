@@ -4,13 +4,13 @@ Tool written in JavaScript that generates a CSV file containing a listing of all
 
 **Requirements:**
 - Node.js - (https://nodejs.org)
-- Provisioning API enabled - (https://cloudinary.com/documentation/provisioning_api)
+- Cloudinary account with Provisioning API enabled - (https://cloudinary.com/documentation/provisioning_api)
 
 ## Configuration:
 
 - `users_and_groups_to_csv.js`
-  - `account_id: 'example-cloudname'`
-    - **Cloud name** - replace the `example-cloudname` value from the account's Cloudinary Dashboard > Account Details.
+  - `account_id: '0123456789-0123456789'`
+    - **Account ID** - replace the `0123456789-0123456789` value from the account's Cloudinary Dashboard > Account Settings > Provisioing API Access.
   - `api_key: '0123456789'`
     - **API Key** - replace the `0123456789` value from the account's Cloudinary Dashboard > Account Details.
   - `api_secret: 'abcdefgh_ijklmnop'`
