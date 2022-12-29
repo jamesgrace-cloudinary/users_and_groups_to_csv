@@ -22,4 +22,4 @@ Tool written in JavaScript that generates a CSV file containing a listing of Use
   
     - **API Secret** - replace the `abcdefghijklmnop` value from Account Settings > Account > Provisioning API Access.
 
-:warning: *Note that **this script requires access to Cloudinary's Provisioning API!** Please be certain that the requisite Provisioning API flags have been enabled and that the Provisioning API Keys have been generated prior to prior to executing against a production Cloudinary sub-account.*
+:warning: *Note that **this script requires access to Cloudinary's Provisioning API!** Please be certain that the requisite Provisioning API flags have been enabled and that the Provisioning API Keys have been generated prior to prior to executing against a production Cloudinary account.*
