@@ -10,10 +10,10 @@ Tool written in JavaScript that generates a CSV file containing a listing of all
 
 - `users_and_groups_to_csv.js`
   - `account_id: '0123456789-0123456789'`
-    - **Account ID** - replace the `0123456789-0123456789` value from the account's Cloudinary Dashboard > Account Settings > Provisioing API Access.
-  - `api_key: '0123456789'`
-    - **API Key** - replace the `0123456789` value from the account's Cloudinary Dashboard > Account Details.
-  - `api_secret: 'abcdefgh_ijklmnop'`
-    - **API Secret** - replace the `abcdefgh_ijklmnop` value from the account's Cloudinary Dashboard > Account Details.
+    - **Account ID** - replace the `0123456789-0123456789` value from Account Settings > Account > Provisioning API Access.
+  - `provisioning_api_key: '0123456789'`
+    - **API Key** - replace the `abcdefghijklmnopqrs` value from Account Settings > Account > Provisioning API Access.
+  - `provisioning_api_secret: 'abcdefgh_ijklmnop'`
+    - **API Secret** - replace the `abcdefghijklmnop` value from Account Settings > Account > Provisioning API Access.
 
-:warning: *Note that **this script will delete all of the derivatives for a specified Named Transformation!** Please be certain that you have a clear understanding of this script's functionality prior to executing against a production Cloudinary sub-account.*
+:warning: *Note that **this script requires that the Provisiong API be enabled!** Please be certain that the requisite Provisioning API flags have been enabled and that Provisioning API Keys have been generated prior to prior to executing against a production Cloudinary sub-account.*
